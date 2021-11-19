@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alpaka_menu</title>
+
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/main.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__body">
+        <a href="#" class="header__logo">
+          <img src="./img/logo.png" class="logo" alt="logo" />
+        </a>
+        <nav class="navigation">
+          <ul class="menu">
+            <li class="menu__item">
+              <a class="menu__link" href="index.html">Главная</a>
+            </li>
+            <li class="menu__item sub">
+              <a class="menu__link sublink" href="#">Основное меню <span class="traingle3"></span></a>
+              <ul class="has-sub">
+                <li class="has-sub__item">
+                  <a href="#">Заказать верстку<span class="traingle1"></span></a>
+                </li>
+                <li class="has-sub__item">
+                  <a href="#">Отправить макет на проверку</a>
+                </li>
+                <li class="has-sub__item">
+                  <a href="#">Хочу работать у вас</a>
+                </li>
+                <li class="has-sub__item">
+                  <a class="borders_bottom" href="#">Есть предложение по работе с кл... <span
+                      class="traingle4"></span></a>
+                  <ul>
+                    <li>
+                      <a class="borders_top" href="#">У меня есть оффер<span class="traingle2"></span></a>
+                    </li>
+                    <li><a class="borders_bottom" href="#">Сделать партнёром</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Наши сервисы</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="phone">
+          <a href="tel:+13212223333"><img src="./img/phone_icon.png" class="phone__icon" alt="phone" /></a>
+          <a href="tel:+13212223333" class="link phone__value">+1 (321) 222 - 33 -33</a>
+        </div>
+        <div class="header__burger">
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="alpaka">
+    <div class="container alpaka__container">
+      <ul class="cd-accordion-menu">
+        <li class="menu__main"><a href="#0">Главная</a></li>
+        <li class="has-children">
+          <input class="input33" type="checkbox" name="group-1" id="group-1">
+          <label for="group-1">Основное меню<span class="traingle3"></span></label>
+          <ul>
+            <li class="has-children"></li>
+            <li><a href="#0">Заказать вёрстку</a></li>
+            <li><a href="#0">Отправить макет на проверку</a></li>
+            <li><a href="#0">Хочу работать у вас</a></li>
+          </ul>
+        </li>
+        <li class="has-children-2">
+          <input type="checkbox" name="group-1" id="group-2">
+          <label for="group-2">Есть предложение по работе с клиентами<span class="traingle3"></span></label>
+          <ul>
+            <li class="has-children-2"></li>
+            <li><a href="#0">У меня есть оффер</a></li>
+            <li><a href="#0">Сделать партнёром</a></li>
+          </ul>
+        </li>
+        <li><a href="#0">Наши сервисы</a></li>
+        <li><a href="#0">Контакты</a></li>
+      </ul>
+    </div>
+  </section>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
